@@ -1,0 +1,16 @@
+C:\Users\user\source\repos\visual1\visual1\bin\Debug\netcoreapp3.1\visual1.exe
+C:\Users\user\source\repos\visual1\visual1\bin\Debug\netcoreapp3.1\visual1.deps.json
+C:\Users\user\source\repos\visual1\visual1\bin\Debug\netcoreapp3.1\visual1.runtimeconfig.json
+C:\Users\user\source\repos\visual1\visual1\bin\Debug\netcoreapp3.1\visual1.runtimeconfig.dev.json
+C:\Users\user\source\repos\visual1\visual1\bin\Debug\netcoreapp3.1\visual1.dll
+C:\Users\user\source\repos\visual1\visual1\bin\Debug\netcoreapp3.1\visual1.pdb
+C:\Users\user\source\repos\visual1\visual1\obj\Debug\netcoreapp3.1\visual1.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\visual1\visual1\obj\Debug\netcoreapp3.1\visual1.Form1.resources
+C:\Users\user\source\repos\visual1\visual1\obj\Debug\netcoreapp3.1\visual1.csproj.GenerateResource.cache
+C:\Users\user\source\repos\visual1\visual1\obj\Debug\netcoreapp3.1\visual1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\visual1\visual1\obj\Debug\netcoreapp3.1\visual1.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\visual1\visual1\obj\Debug\netcoreapp3.1\visual1.AssemblyInfo.cs
+C:\Users\user\source\repos\visual1\visual1\obj\Debug\netcoreapp3.1\visual1.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\visual1\visual1\obj\Debug\netcoreapp3.1\visual1.dll
+C:\Users\user\source\repos\visual1\visual1\obj\Debug\netcoreapp3.1\visual1.pdb
+C:\Users\user\source\repos\visual1\visual1\obj\Debug\netcoreapp3.1\visual1.genruntimeconfig.cache
