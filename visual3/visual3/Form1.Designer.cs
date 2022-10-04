@@ -73,24 +73,27 @@ namespace visual3
             // 
             // textBox1
             // 
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textBox1.Location = new System.Drawing.Point(81, 29);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(154, 34);
             this.textBox1.TabIndex = 3;
-            this.textBox1.Text = "0";
+            this.textBox1.Text = "0,1";
             // 
             // textBox2
             // 
+            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textBox2.Location = new System.Drawing.Point(81, 79);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(154, 34);
             this.textBox2.TabIndex = 4;
-            this.textBox2.Text = "2";
+            this.textBox2.Text = "1";
             // 
             // textBox3
             // 
+            this.textBox3.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textBox3.Location = new System.Drawing.Point(319, 29);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
@@ -113,7 +116,7 @@ namespace visual3
             // 
             this.richTextBox1.Location = new System.Drawing.Point(12, 147);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(461, 257);
+            this.richTextBox1.Size = new System.Drawing.Size(553, 257);
             this.richTextBox1.TabIndex = 8;
             this.richTextBox1.Text = "";
             // 
@@ -123,24 +126,25 @@ namespace visual3
             this.label4.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.Location = new System.Drawing.Point(267, 83);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(29, 30);
+            this.label4.Size = new System.Drawing.Size(33, 30);
             this.label4.TabIndex = 9;
-            this.label4.Text = "H";
+            this.label4.Text = "M";
             // 
             // textBox4
             // 
+            this.textBox4.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textBox4.Location = new System.Drawing.Point(319, 79);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(154, 34);
             this.textBox4.TabIndex = 10;
-            this.textBox4.Text = "0,25";
+            this.textBox4.Text = "4";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(486, 472);
+            this.ClientSize = new System.Drawing.Size(588, 472);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.richTextBox1);

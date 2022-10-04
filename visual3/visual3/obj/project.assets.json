@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\repos\\visual3\\visual3\\visual3.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\учёба\\VisualP\\VisualP\\visual3\\visual3\\visual3.csproj",
       "projectName": "visual3",
-      "projectPath": "C:\\Users\\user\\source\\repos\\visual3\\visual3\\visual3.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\учёба\\VisualP\\VisualP\\visual3\\visual3\\visual3.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\repos\\visual3\\visual3\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\учёба\\VisualP\\VisualP\\visual3\\visual3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
