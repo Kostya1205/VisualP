@@ -29,7 +29,6 @@ namespace visual_4
                 {
                     DataGridViewTextBoxColumn c = new DataGridViewTextBoxColumn();
                     c.HeaderText = "i = " + i;
-                    c.Name = "i" + i;
                     Table1.Columns.Add(c);
 
                 }
@@ -55,7 +54,7 @@ namespace visual_4
 
         private void calculection()
         {
-            int i = 0,k=0;
+            int k=0;
             int value;
             for (int col = 0; col < Table1.Columns.Count; col++)
                 for(int rows = 0; rows < (Table1.Rows.Count-1); rows++)
@@ -85,6 +84,11 @@ namespace visual_4
         private void button2_Click(object sender, EventArgs e)
         {
             calculection();
+        }
+        private void Table1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            textBox5.Text=" N of Rows = "+Convert.ToString(e.RowIndex)+" N of Collum = " + Convert.ToString(e.ColumnIndex)+ " Value = " + Convert.ToString(Table1.Rows[e.RowIndex].Cells[e.ColumnIndex].Value);
+            //textBox5.Text=" N of Rows = "+Convert.ToString(Table1.CurrentCell.RowIndex+1)+" N of Collum = " + Convert.ToString(Table1.CurrentCell.ColumnIndex + 1)+ " Value = " + Convert.ToString(Table1.CurrentCell.Value);
         }
     }
 }

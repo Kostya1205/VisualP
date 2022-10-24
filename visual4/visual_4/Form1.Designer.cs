@@ -40,6 +40,7 @@ namespace visual_4
             this.button2 = new System.Windows.Forms.Button();
             this.Table1 = new System.Windows.Forms.DataGridView();
             this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.Table1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -108,7 +109,7 @@ namespace visual_4
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox3.Location = new System.Drawing.Point(115, 481);
+            this.textBox3.Location = new System.Drawing.Point(69, 481);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(49, 34);
@@ -118,7 +119,7 @@ namespace visual_4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(68, 481);
+            this.label4.Location = new System.Drawing.Point(22, 481);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(41, 30);
             this.label4.TabIndex = 14;
@@ -127,7 +128,7 @@ namespace visual_4
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(363, 478);
+            this.button2.Location = new System.Drawing.Point(136, 478);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(150, 40);
             this.button2.TabIndex = 13;
@@ -148,6 +149,7 @@ namespace visual_4
             this.Table1.Size = new System.Drawing.Size(776, 321);
             this.Table1.StandardTab = true;
             this.Table1.TabIndex = 16;
+            this.Table1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Table1_CellClick);
             // 
             // textBox4
             // 
@@ -161,11 +163,21 @@ namespace visual_4
             this.textBox4.TabIndex = 17;
             this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // textBox5
+            // 
+            this.textBox5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox5.Location = new System.Drawing.Point(303, 477);
+            this.textBox5.Multiline = true;
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(339, 41);
+            this.textBox5.TabIndex = 18;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 530);
+            this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.Table1);
             this.Controls.Add(this.textBox3);
@@ -198,6 +210,7 @@ namespace visual_4
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.DataGridView Table1;
         private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox5;
     }
 }
 
